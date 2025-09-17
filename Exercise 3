@@ -1,3 +1,5 @@
+--Insert one column
+
 Insert into customers
 value (default, 'John',
 'Smith',
@@ -7,3 +9,10 @@ null,
 'city',
 'CA',
 default)
+
+--insert multiple rows
+
+insert into shippers (name)
+values ('shipper 1'),
+('shipper 1'),
+('shipper 1')
